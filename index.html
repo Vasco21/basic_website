@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: #f1f1f1;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            background-image: url("image/layout.jpeg");
+
+        
+        }
+        
+        .card-container{
+            width: 300px;
+            height: 450px;
+            background: #FFF;
+            border-radius: 6px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0px 1px 10px 1px;
+            overflow: hidden;
+            display: inline-block;
+
+        }
+        .upper-container{
+            height: 150px;
+            background: #7f007f;
+        }
+        .my-image{
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            padding: 5px;
+            transform: translate(100px, 100px);
+        }
+
+        .my-image img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+        }
+        .lower-container{
+            height: 300px;
+            background: #FFF;
+            padding: 20px;
+            padding-top: 40px;
+            text-align: center;
+        }
+        .lower-container .bfn{
+            padding: 12px 20px;
+            background: #7f007f;
+            border: none;
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        .B{
+            padding: 50px;
+        }
+        .lower-container .bfnc{
+            padding: 12px 20px;
+            background: #7f007f;
+            border: none;
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+            text-decoration: none;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="upper-container">
+            <div class="my-image">
+                <img src="image/lay.png" alt="Vasco">
+            </div>
+
+        </div>
+        <div class="lower-container">
+            <div><h2>Vasco Eti</h2></div>
+            <div><p>Welcome to my webpage</p></div>
+            <div>
+                <a href="my-webpage.html" class="bfn">My-Webpage</a>
+            </div>
+            <div class="B">
+            <div>
+                <a href="my-webpage-grid.html" class="bfnc">My-Webpage-Grid</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

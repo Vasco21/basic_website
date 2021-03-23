@@ -1,0 +1,70 @@
+
+*{
+    background: darkgrey;
+}
+.col-3-sm{
+    width: 45%;
+    
+}
+.header{
+  text-align: center;
+}
+***
+.container  {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.cname h1{
+  margin-bottom: 1px;
+  
+}
+.imgBx{
+  float:left;
+  padding: 10px;
+}   
+.reason{ 
+  padding: 10px;
+
+}
+.reason p{
+  text-align: left;
+}
+
+***
+.containerT p{
+    margin-top: 10px;
+  
+  }
+  table{
+    border-collapse: collapse;
+    width:70%;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+  
+  }
+  th{
+    text-align: left;
+  }
+  table, th , td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px 10px;
+  }
+
+  @media screen and (max-width: 43em){
+    .col-3{
+      width: 40%;
+    }
+    .col-6{
+      width: 40%;
+    }
+  }
+  @media only screen and (max-width: 45em){
+    .col-3{
+      width: 40%;
+    }
+    .col-6{
+      width: 40%;
+    }
+  }

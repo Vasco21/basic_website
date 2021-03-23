@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/**header*/
+body{
+  background-color: dimgrey;  
+  margin: 0;
+  padding: 0; 
+}
+.containerr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+img{
+  max-width: 100%;
+}
+.img-col{
+  flex-basis: 20%;
+}
+.name-col {
+  padding:50px;
+  color: gainsboro;
+  
+}
+/*end header*/
+
+/*city*/
+.containerc{
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.cname h1{
+  color: gainsboro;;
+  margin-bottom: 1px;
+  text-align: center;
+  
+}
+.imgBx{
+  float:left;
+  padding: 10px;
+}   
+.reason{ 
+  color: gainsboro;
+  padding: 10px;
+
+}
+.reason p{
+  text-align: left;
+}
+/*end city*/
+/*table*/
+#lang .container h1{
+  color:gainsboro;
+  text-align: center;
+  
+}
+.container p{
+  color: gainsboro;
+  margin-top: 10px;
+
+}
+table{
+  border-collapse: collapse;
+  width:70%;
+  margin-top: 10px;
+
+}
+th{
+  text-align: left;
+}
+table, th , td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+  color: gainsboro;
+  padding: 10px 10px;
+}
+/* table end*/
+.sectionc{
+  position: relative;
+  width: 100%;
+
+}
+/**history places*/
+
+.lastHead{
+  color: gainsboro;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+.containerAll{
+  width: 100%;
+  height: auto;
+  
+  
+  /*flex*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.txt{
+  width:300px;
+  height: 200px;
+  box-sizing: border-box;
+  color: gainsboro  ;
+}
+.col{
+  width:300px;
+  height: 200px;
+  box-sizing: border-box;
+}
+/***web responsive @media quaries***/
+@media screen and (max-width: 1312px){
+  .txt{
+    width: 40%;
+  }
+  .col{
+    width: 40%;
+  }
+}
+
+.containerf{
+  color: gainsboro;
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media  (min-width: 768px){
+  .txt{
+    width: 16%;
+  }
+  .col{
+    width: 16%;
+  }
+}
