@@ -5,8 +5,8 @@
 /**header*/
 body{
   background-color: dimgrey;  
-  margin: 0;
-  padding: 0; 
+  margin: 20px;
+  padding: 20px; 
 }
 .containerr{
   display: flex;
@@ -106,12 +106,14 @@ table, th , td{
 }
 h4{
   color: gainsboro;
+  margin-bottom: 20px;
 }
 .txt{
   width:300px;
   height: 200px;
   box-sizing: border-box;
-  color: gainsboro  ;
+  color: gainsboro;
+  padding: 40px;
 }
 .col{
   width:300px;
