@@ -58,6 +58,10 @@
     margin-top: -13px;
   }
 
+
+  .footer   p{
+    text-align: center;
+  }
   @media screen and (max-width: 43em){
     .col-3{
       width: 40%;
